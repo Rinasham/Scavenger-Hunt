@@ -1,0 +1,67 @@
+body {
+  font-family: "Anton", sans-serif;
+}
+
+/* ==============  header  ================= */
+
+header {
+  background-color: #50a3a2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 15px;
+}
+
+.menu {
+  color: white;
+  cursor: pointer;
+}
+
+/* ==============  main  ================= */
+
+#main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h1:hover,
+.itemsBtn:hover {
+  color: #50a3a2;
+}
+
+.challenges {
+  border: 2px solid black;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.items {
+  cursor: pointer;
+  font-size: 25px;
+  border: 2px solid lightgrey;
+  padding: 15px;
+  width: 100%;
+  margin: 3px;
+}
+
+p,
+a {
+  letter-spacing: 1px;
+}
